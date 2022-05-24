@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+}
+
+summary {
+    font-weight: bold;
+}
+
+details {
+    margin-left: 20px;
+}
+
+.alert {
+    background-color: red;
+    color: white;
+}
