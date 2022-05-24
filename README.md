@@ -28,8 +28,9 @@ You can view the XLSX in this project, which is a demo search for Nursing Jobs i
 1. Download a `.zip` of the repository or `git clone` it.
 2. Download any needed dependencies with pip (you can see these by looking at the `from` and `import` items at the top of `script.py`. They can be installed like `pip install bs4` )
 3. Go into the directory and run `python3 script.py` if on Linux, or `py script.py` if on Windows.
-4. Wait for the script to complete. The descriptions take a bit to scrape, so a countdown in the console will show you the progress.
-5. That's it! Check the directory for the spreadsheet of results.
+4. Answer the prompts that appear on the command line.
+5. Wait for the script to complete. The descriptions take a bit to scrape, so a countdown in the console will show you the progress.
+6. That's it! Check the directory for the spreadsheet of results.
 
 ## Customization
 - If you live outside of the US, you can add your country's prefix by editing `script.py` and adding the prefix to the `view_job_url` variable.
