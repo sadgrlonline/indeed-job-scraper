@@ -35,4 +35,4 @@ You can view the XLSX in this project, which is a demo search for Nursing Jobs i
 - If you live outside of the US, you can add your country's prefix by editing `script.py` and adding the prefix to the `view_job_url` variable.
 - If you want to export the data to a webpage, go to the `get_descriptions()` function and remove `.getText()` from `scraped_job_descriptions.append(description.getText())`. Then, uncomment `write_to_html()`
 - If you want to submit the data to a local database, edit the `submit_to_db()` function with your database information and then uncomment `submit_to_db`.
-- If you want to increase the number of results, find the first `while` loop and change the page number from 10 to 20, 30, 40, etc. Each 10 represents 15 job listings. Please note the more results you display, the longer the script will take to run.
+- If you want to increase the number of results, find the first `while` loop and change the page number from 10 to 20, 30, 40, etc. Each 10 represents 15 job listings. Be sure to change it in BOTH places. Please note the more results you display, the longer the script will take to run.
